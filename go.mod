@@ -8,6 +8,7 @@ require (
 	github.com/jackc/pgconn v1.14.3
 	github.com/jackc/pgx/v4 v4.18.3
 	github.com/pkg/errors v0.9.1
+	go.uber.org/mock v0.5.0
 )
 
 require (
