@@ -5,6 +5,8 @@ import (
 	"time"
 )
 
+//go:generate ../../../bin/mockgen -source $GOFILE -destination "mocks/cache.go" -package mocks
+
 // RedisClient represents Redis client.
 type RedisClient interface {
 	HSet(ctx context.Context, key string, values interface{}) error

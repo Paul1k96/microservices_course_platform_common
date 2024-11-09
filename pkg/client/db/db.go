@@ -7,6 +7,8 @@ import (
 	"github.com/jackc/pgx/v4"
 )
 
+//go:generate ../../../bin/mockgen -source $GOFILE -destination "mocks/db.go" -package mocks
+
 // Handler is a function that is executed in a transaction.
 type Handler func(ctx context.Context) error
 
