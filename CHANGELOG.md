@@ -1,3 +1,13 @@
+## v0.5.0 (2024-11-17)
+
+### Feat
+
+- **kafka**: add kafka consumer && handler
+
+### Fix
+
+- **cicd**: delete release && fix permissions
+
 ## v0.4.0 (2024-11-09)
 
 ### Feat
